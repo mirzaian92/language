@@ -1,6 +1,6 @@
-﻿"use client";
+"use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 function shuffleEntries(entries) {
   const deck = [...entries];
@@ -16,25 +16,77 @@ function shuffleEntries(entries) {
   return deck;
 }
 
+function getRandomCelebrationStep() {
+  return Math.floor(Math.random() * 3) + 4;
+}
+
+function createCelebrationBurst() {
+  const icons = ["heart", "star"];
+
+  return Array.from({ length: 20 }, (_, index) => ({
+    id: `${Date.now()}-${index}`,
+    icon: icons[index % icons.length],
+    left: `${8 + Math.random() * 84}%`,
+    delay: `${Math.random() * 160}ms`,
+    duration: `${900 + Math.random() * 700}ms`,
+    drift: `${-60 + Math.random() * 120}px`,
+    rotation: `${-120 + Math.random() * 240}deg`,
+    scale: `${0.78 + Math.random() * 0.7}`,
+  }));
+}
+
 export default function WordDeck({ category }) {
   const [deck] = useState(() => shuffleEntries(category.entries));
   const [currentIndex, setCurrentIndex] = useState(0);
   const [revealedIds, setRevealedIds] = useState(() => new Set());
+  const [celebrationBurst, setCelebrationBurst] = useState([]);
+  const revealCountRef = useRef(0);
+  const nextCelebrationAtRef = useRef(getRandomCelebrationStep());
+  const clearCelebrationTimeoutRef = useRef(null);
 
   const currentEntry = deck[currentIndex];
   const definitionIsVisible = revealedIds.has(currentEntry.id);
-  const seenCount = revealedIds.size;
+
+  useEffect(() => {
+    return () => {
+      if (clearCelebrationTimeoutRef.current) {
+        clearTimeout(clearCelebrationTimeoutRef.current);
+      }
+    };
+  }, []);
+
+  function triggerCelebrationIfNeeded() {
+    revealCountRef.current += 1;
+
+    if (revealCountRef.current < nextCelebrationAtRef.current) {
+      return;
+    }
+
+    nextCelebrationAtRef.current += getRandomCelebrationStep();
+    setCelebrationBurst(createCelebrationBurst());
+
+    if (clearCelebrationTimeoutRef.current) {
+      clearTimeout(clearCelebrationTimeoutRef.current);
+    }
+
+    clearCelebrationTimeoutRef.current = setTimeout(() => {
+      setCelebrationBurst([]);
+      clearCelebrationTimeoutRef.current = null;
+    }, 1900);
+  }
 
   function revealDefinition() {
-    setRevealedIds((current) => {
-      if (current.has(currentEntry.id)) {
-        return current;
-      }
+    if (definitionIsVisible) {
+      return;
+    }
 
+    setRevealedIds((current) => {
       const next = new Set(current);
       next.add(currentEntry.id);
       return next;
     });
+
+    triggerCelebrationIfNeeded();
   }
 
   function showPreviousWord() {
@@ -52,25 +104,34 @@ export default function WordDeck({ category }) {
   return (
     <section className="word-stage">
       <article className="word-panel">
+        {celebrationBurst.length > 0 ? (
+          <div className="celebration-burst" aria-hidden="true">
+            {celebrationBurst.map((particle) => (
+              <span
+                key={particle.id}
+                className={`celebration-piece celebration-piece-${particle.icon}`}
+                style={{
+                  left: particle.left,
+                  animationDelay: particle.delay,
+                  animationDuration: particle.duration,
+                  "--celebration-drift": particle.drift,
+                  "--celebration-rotation": particle.rotation,
+                  "--celebration-scale": particle.scale,
+                }}
+              >
+                {particle.icon === "heart" ? "\u2665" : "\u2605"}
+              </span>
+            ))}
+          </div>
+        ) : null}
+
         <div className="progress-row">
-          <p className="progress-note">
-            Word {currentIndex + 1} of {deck.length}
-          </p>
-          <span
-            className={`status-pill ${definitionIsVisible ? "status-pill-live" : "status-pill-resting"}`}
-          >
-            {definitionIsVisible ? "Definition unlocked" : "Reveal to unlock next"}
-          </span>
+          <p className="progress-note">Word {currentIndex + 1} of {deck.length}</p>
         </div>
 
-        <p className="category-label">{category.title}</p>
         <h1 className="word-term">
           <strong>{currentEntry.term}</strong>
         </h1>
-
-        <p className="word-copy">
-          Open the meaning when you’re ready, then move back and forth through the shuffled deck.
-        </p>
 
         {!definitionIsVisible ? (
           <button className="primary-button" type="button" onClick={revealDefinition}>
@@ -105,13 +166,8 @@ export default function WordDeck({ category }) {
 
       <aside className="info-panel">
         <div className="info-card">
-          <p className="info-label">Fresh shuffle</p>
-          <p className="info-value">Every time you open a category, the word order changes.</p>
-        </div>
-
-        <div className="info-card">
           <p className="info-label">Seen so far</p>
-          <p className="info-stat">{seenCount}</p>
+          <p className="info-stat">{revealedIds.size}</p>
           <p className="info-value">
             Revealed definitions stay attached to their words when you move backward.
           </p>

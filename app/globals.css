@@ -319,7 +319,7 @@ button {
   display: grid;
   grid-template-columns: minmax(0, 1.5fr) minmax(260px, 0.85fr);
   gap: 1.2rem;
-  margin-top: 1.2rem;
+  margin-top: 0.75rem;
 }
 
 .word-panel,
@@ -328,7 +328,37 @@ button {
 }
 
 .word-panel {
+  position: relative;
+  overflow: hidden;
   padding: clamp(1.5rem, 4vw, 2.6rem);
+}
+
+.celebration-burst {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.celebration-piece {
+  position: absolute;
+  top: 22%;
+  opacity: 0;
+  font-size: clamp(1.2rem, 2vw, 1.7rem);
+  filter: drop-shadow(0 8px 14px rgba(1, 10, 28, 0.35));
+  transform: translate3d(0, 0, 0) scale(var(--celebration-scale, 1));
+  animation-name: confetti-fall;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.celebration-piece-heart {
+  color: #ff8cab;
+}
+
+.celebration-piece-star {
+  color: #ffe484;
 }
 
 .progress-row,
@@ -484,6 +514,24 @@ button {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes confetti-fall {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -20px, 0) scale(var(--celebration-scale, 1)) rotate(0deg);
+  }
+
+  12% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(var(--celebration-drift, 0px), 280px, 0)
+      scale(var(--celebration-scale, 1))
+      rotate(var(--celebration-rotation, 120deg));
   }
 }
 
