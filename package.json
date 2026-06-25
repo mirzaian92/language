@@ -1,0 +1,16 @@
+{
+  "name": "makillia-word-of-the-day",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "refresh-data": "powershell -ExecutionPolicy Bypass -File scripts/extract-slang.ps1"
+  },
+  "dependencies": {
+    "next": "16.2.9",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  }
+}
