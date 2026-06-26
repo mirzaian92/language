@@ -1,30 +1,14 @@
-import Link from "next/link";
-import { notFound } from "next/navigation";
+import { redirect } from "next/navigation";
 
-import WordDeck from "@/components/word-deck";
-import { getCategories, getCategoryBySlug } from "@/lib/slang-data";
+import { getCollectionBySlug } from "@/lib/collections";
 
 export function generateStaticParams() {
-  return getCategories().map((category) => ({
+  return getCollectionBySlug("1930").categories.map((category) => ({
     slug: category.slug,
   }));
 }
 
-export default async function CategoryPage({ params }) {
+export default async function LegacyCategoryPage({ params }) {
   const { slug } = await params;
-  const category = getCategoryBySlug(slug);
-
-  if (!category) {
-    notFound();
-  }
-
-  return (
-    <main className="shell detail-shell">
-      <Link href="/" className="back-link">
-        Back to all cards
-      </Link>
-
-      <WordDeck category={category} />
-    </main>
-  );
+  redirect(`/1930/${slug}`);
 }

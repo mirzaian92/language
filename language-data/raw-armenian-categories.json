@@ -1,0 +1,1003 @@
+[
+    {
+        "title":  "Everyday Words",
+        "lines":  [
+
+                  ],
+        "tableRows":  [
+                          [
+                              "English",
+                              "Armenian"
+                          ],
+                          [
+                              "Hello",
+                              "Barev"
+                          ],
+                          [
+                              "How are you?",
+                              "Vonts es?"
+                          ],
+                          [
+                              "Thank you",
+                              "Shnorhakal (often “merci” is acceptable)"
+                          ],
+                          [
+                              "Please",
+                              "Khndrem"
+                          ],
+                          [
+                              "Yes",
+                              "Ayo (colloquially “ha”)"
+                          ],
+                          [
+                              "No",
+                              "Voch (colloquially “che”)"
+                          ],
+                          [
+                              "What is the time?",
+                              "Djame kanisen eh?"
+                          ],
+                          [
+                              "How much is this?",
+                              "Es inch arje?"
+                          ],
+                          [
+                              "What is your name?",
+                              "Anooned inch eh?"
+                          ],
+                          [
+                              "Where is?",
+                              "Oor eh?"
+                          ],
+                          [
+                              "Good Morning",
+                              "Bari looys"
+                          ],
+                          [
+                              "Good Night",
+                              "Bari Gisher"
+                          ]
+                      ]
+    },
+    {
+        "title":  "Of Interest to Tourists:",
+        "lines":  [
+
+                  ],
+        "tableRows":  [
+                          [
+                              "English",
+                              "Armenian"
+                          ],
+                          [
+                              "Bank",
+                              "Baank"
+                          ],
+                          [
+                              "Currency Exchange",
+                              "Drami phokhanakoom"
+                          ],
+                          [
+                              "Pharmacy",
+                              "Apteka (Russian) or deghatoon"
+                          ],
+                          [
+                              "Grocery Store",
+                              "Mterayin"
+                          ],
+                          [
+                              "Shop",
+                              "Khanoot"
+                          ],
+                          [
+                              "Bus Station",
+                              "Avtokayan"
+                          ],
+                          [
+                              "Train Station",
+                              "kayaran"
+                          ],
+                          [
+                              "Bus",
+                              "Avtoboos"
+                          ],
+                          [
+                              "Hospital",
+                              "Hivandanotz"
+                          ],
+                          [
+                              "Doctor",
+                              "Bjishk"
+                          ],
+                          [
+                              "Market",
+                              "Bazar or shuka"
+                          ],
+                          [
+                              "Toilet",
+                              "Zugaran"
+                          ],
+                          [
+                              "City Centre",
+                              "Kentron"
+                          ],
+                          [
+                              "Closed",
+                              "Pak"
+                          ],
+                          [
+                              "Open",
+                              "Batz"
+                          ],
+                          [
+                              "Church",
+                              "Yekeghetsi"
+                          ],
+                          [
+                              "Castle",
+                              "Berd"
+                          ],
+                          [
+                              "Lake",
+                              "Lij"
+                          ],
+                          [
+                              "Camera",
+                              "Aparat (Russian word)"
+                          ]
+                      ]
+    },
+    {
+        "title":  "Numbers",
+        "lines":  [
+
+                  ],
+        "tableRows":  [
+                          [
+                              "English",
+                              "Armenian"
+                          ],
+                          [
+                              "1",
+                              "Mek"
+                          ],
+                          [
+                              "2",
+                              "Yerku"
+                          ],
+                          [
+                              "3",
+                              "Yerek"
+                          ],
+                          [
+                              "4",
+                              "Chors"
+                          ],
+                          [
+                              "5",
+                              "Hing"
+                          ],
+                          [
+                              "6",
+                              "Vetz"
+                          ],
+                          [
+                              "7",
+                              "Yot"
+                          ],
+                          [
+                              "8",
+                              "Oot"
+                          ],
+                          [
+                              "9",
+                              "Ine"
+                          ],
+                          [
+                              "10",
+                              "Tas"
+                          ],
+                          [
+                              "20",
+                              "Ksan"
+                          ],
+                          [
+                              "30",
+                              "Yeresoon"
+                          ],
+                          [
+                              "40",
+                              "Karasoon"
+                          ],
+                          [
+                              "50",
+                              "Hisoon"
+                          ],
+                          [
+                              "60",
+                              "Vatsoon"
+                          ],
+                          [
+                              "70",
+                              "Yotanasoon"
+                          ],
+                          [
+                              "80",
+                              "Ootsoon"
+                          ],
+                          [
+                              "90",
+                              "Inesoon"
+                          ],
+                          [
+                              "100",
+                              "Haryur"
+                          ],
+                          [
+                              "1000",
+                              "Hazar"
+                          ],
+                          [
+                              "2000",
+                              "Yerku hazar"
+                          ],
+                          [
+                              "100,000",
+                              "Haryur Hazar"
+                          ],
+                          [
+                              "1,000,000",
+                              "Mek Milyon"
+                          ]
+                      ]
+    },
+    {
+        "title":  "Days of the Week",
+        "lines":  [
+
+                  ],
+        "tableRows":  [
+                          [
+                              "English",
+                              "Armenian"
+                          ],
+                          [
+                              "Monday",
+                              "Yerkushabti"
+                          ],
+                          [
+                              "Tuesday",
+                              "Yerekshabti"
+                          ],
+                          [
+                              "Wednesday",
+                              "Chorekshabti"
+                          ],
+                          [
+                              "Thursday",
+                              "Hingshabti"
+                          ],
+                          [
+                              "Friday",
+                              "Oorbat"
+                          ],
+                          [
+                              "Saturday",
+                              "Shabat"
+                          ],
+                          [
+                              "Sunday",
+                              "Kiraki"
+                          ]
+                      ]
+    },
+    {
+        "title":  "MISC.",
+        "lines":  [
+                      "1. Barev (Բարև) – HelloA basic greeting used in both formal and informal settings.",
+                      "2. Shnorhakalutyun (Շնորհակալություն) – Thank youAn essential word for expressing gratitude.",
+                      "3. Hayeren (Հայերեն) – Armenian (language)Useful when discussing languages.",
+                      "4. Ayo (Այո) – YesA straightforward affirmative response.",
+                      "5. Voch (Ոչ) – NoThe opposite of “Ayo.”",
+                      "6. Inchpes es? (Ինչպես ես?) – How are you?A common question to start a conversation.",
+                      "7. Lav em (Լավ եմ) – I am goodA typical response to “Inchpes es?”",
+                      "8. Du (Դու) – You (informal)Used in casual conversations.",
+                      "9. Dzez (Ձեզ) – You (formal)Used in formal settings or when showing respect.",
+                      "10. Yes (Ես) – IRefers to oneself.",
+                      "11. Im (Իմ) – MyUsed to indicate possession.",
+                      "12. Anun (Անուն) – NameUseful when introducing yourself.",
+                      "13. Inch (Ինչ) – WhatA common question word.",
+                      "14. Ov (Ով) – WhoAnother essential question word.",
+                      "15. Urum (Ուրեմն) – SoA transitional word used in conversations.",
+                      "16. Siro (Սիրո) – LoveA word often used in personal conversations.",
+                      "17. Haverj (Հավերժ) – ForeverCommonly used in expressions of lasting sentiments.",
+                      "18. Tsav (Ցավ) – PainUseful when discussing health or feelings.",
+                      "19. Havat (Հավատ) – FaithA word with cultural and religious significance.",
+                      "20. Hars (Հարս) – BrideA term used during weddings and related discussions.",
+                      "21. Pagh (Փաղ) – MoneyUseful in financial contexts.",
+                      "22. Kentron (Կենտրոն) – CenterOften used when giving directions.",
+                      "23. Tun (Տուն) – HomeA word indicating a place of residence.",
+                      "24. Miasin (Միասին) – TogetherCommonly used in social contexts.",
+                      "25. Mank (Մանկ) – ChildA term often heard in family settings.",
+                      "26. Vayr (Վայր) – PlaceUseful when discussing locations.",
+                      "27. Togh (Թող) – LetA verb often used in giving permission.",
+                      "28. Khndrem (Խնդրեմ) – PleaseEssential for polite requests.",
+                      "29. Tsavd tanem (Ցավդ տանեմ) – I will take your pain awayAn expression of empathy.",
+                      "30. Sev (Սեւ) – BlackA color often referenced in descriptions.",
+                      "31. Karmir (Կարմիր) – RedAnother color, useful in various contexts.",
+                      "32. Karmir (Կարմիր) – RedAnother color, useful in various contexts.",
+                      "33. Tsaghik (Ծաղիկ) – FlowerA word often used in expressions of beauty.",
+                      "34. Bajan (Բաժան) – ShareA verb indicating the act of sharing.",
+                      "35. Dproc (Դպրոց) – SchoolCommonly used in educational contexts.",
+                      "36. Gini (Գինի) – WineA word often heard in social gatherings.",
+                      "37. Jerm (Ջերմ) – WarmUsed to describe temperature or feelings.",
+                      "38. Harsaniq (Հարսանիք) – WeddingAn event term.",
+                      "39. Yekel (Եկել) – ComeA verb used in invitations.",
+                      "40. Khelk (Խելք) – MindOften used in discussions of intelligence.",
+                      "41. Ser (Սեր) – MilkA common grocery item.",
+                      "42. Tsaghik (Ծաղիկ) – FlowerA word often used in expressions of beauty.",
+                      "43. Bajan (Բաժան) – ShareA verb indicating the act of sharing.",
+                      "44. Dproc (Դպրոց) – SchoolCommonly used in educational contexts.",
+                      "45. Gini (Գինի) – WineA word often heard in social gatherings.",
+                      "46. Jerm (Ջերմ) – WarmUsed to describe temperature or feelings.",
+                      "47. Harsaniq (Հարսանիք) – WeddingAn event term.",
+                      "48. Yekel (Եկել) – ComeA verb used in invitations.",
+                      "49. Khelk (Խելք) – MindOften used in discussions of intelligence.",
+                      "50. Ser (Սեր) – MilkA common grocery item."
+                  ],
+        "tableRows":  [
+
+                      ]
+    },
+    {
+        "title":  "Greetings \u0026 Courtesy",
+        "lines":  [
+
+                  ],
+        "tableRows":  [
+                          [
+                              "#",
+                              "English",
+                              "Armenian Script",
+                              "Transliteration",
+                              "How to Say It"
+                          ],
+                          [
+                              "1",
+                              "Hello (informal)",
+                              "Բarév",
+                              "Barev",
+                              "BAH-rev"
+                          ],
+                          [
+                              "2",
+                              "Hello (formal)Use with elders or in professional settings",
+                              "Բarév Dzez",
+                              "Barev Dzez",
+                              "BAH-rev DZEZ"
+                          ],
+                          [
+                              "3",
+                              "Good morning",
+                              "Բarí Luys",
+                              "Bari Luys",
+                              "BAH-ree LOOYS"
+                          ],
+                          [
+                              "4",
+                              "Good evening",
+                              "Բarí Yereko",
+                              "Bari Yereko",
+                              "BAH-ree YEH-reh-ko"
+                          ],
+                          [
+                              "5",
+                              "Good night",
+                              "Բarí Gisher",
+                              "Bari Gisher",
+                              "BAH-ree GEE-sher"
+                          ],
+                          [
+                              "6",
+                              "Goodbye",
+                              "Tstesutʿyun",
+                              "Tstesutyun",
+                              "ts-te-soo-TYOON"
+                          ],
+                          [
+                              "7",
+                              "Thank youFull formal version",
+                              "Շnorhakalutyun",
+                              "Shnorhakalutyun",
+                              "sh-nor-hah-kah-loo-TYOON"
+                          ],
+                          [
+                              "8",
+                              "Thank you (casual)Everyone uses this — borrowed from French",
+                              "Mersi",
+                              "Mersi",
+                              "MER-see"
+                          ],
+                          [
+                              "9",
+                              "Please / You\u0027re welcome",
+                              "Khndrem",
+                              "Khndrem",
+                              "k-HUN-drem"
+                          ],
+                          [
+                              "10",
+                              "Sorry / Excuse me",
+                              "Neroghutʿyun",
+                              "Neroghutyan",
+                              "neh-ro-ghoo-TYOON"
+                          ],
+                          [
+                              "11",
+                              "Yes",
+                              "Ayo",
+                              "Ayo",
+                              "AH-yo"
+                          ],
+                          [
+                              "12",
+                              "No",
+                              "Votch",
+                              "Votch",
+                              "votch"
+                          ],
+                          [
+                              "13",
+                              "OK / Fine / Good",
+                              "Lav",
+                              "Lav",
+                              "lahv"
+                          ],
+                          [
+                              "14",
+                              "Very good",
+                              "Shad lav",
+                              "Shad lav",
+                              "shad LAHV"
+                          ],
+                          [
+                              "15",
+                              "Congratulations",
+                              "ShnorhavoRoom em",
+                              "Shnorhavorum em",
+                              "sh-nor-hah-vo-ROOM em"
+                          ]
+                      ]
+    },
+    {
+        "title":  "Basic Conversations",
+        "lines":  [
+
+                  ],
+        "tableRows":  [
+                          [
+                              "#",
+                              "English",
+                              "Armenian Script",
+                              "Transliteration",
+                              "How to Say It"
+                          ],
+                          [
+                              "16",
+                              "How are you? (informal)",
+                              "Inchpes es?",
+                              "Inchpes es?",
+                              "inch-PES es"
+                          ],
+                          [
+                              "17",
+                              "How are you? (formal)",
+                              "Inchpes ek?",
+                              "Inchpes ek?",
+                              "inch-PES ek"
+                          ],
+                          [
+                              "18",
+                              "What is your name?",
+                              "Anund inch e?",
+                              "Anund inch e?",
+                              "ah-NOOND inch eh"
+                          ],
+                          [
+                              "19",
+                              "My name is ___",
+                              "Anuns ___ e",
+                              "Anuns ___ e",
+                              "ah-NOONS ___ eh"
+                          ],
+                          [
+                              "20",
+                              "Do you speak English?",
+                              "Angleren gites?",
+                              "Angleren gites?",
+                              "ang-leh-REN gee-TES"
+                          ],
+                          [
+                              "21",
+                              "I don\u0027t understand",
+                              "Chem haskanum",
+                              "Chem haskanum",
+                              "chem has-KAH-noom"
+                          ],
+                          [
+                              "22",
+                              "Please repeat that",
+                              "Krkes, khndrem",
+                              "Krknes, khndrem",
+                              "KUUR-knes k-HUN-drem"
+                          ],
+                          [
+                              "23",
+                              "I am ArmenianEven if you\u0027re diaspora, this earns huge warmth",
+                              "Yes Hay em",
+                              "Yes Hay em",
+                              "yes HYE em"
+                          ],
+                          [
+                              "24",
+                              "I am American",
+                              "Yes Amerikatsi em",
+                              "Yes Amerikatsi em",
+                              "yes ah-meh-ree-KAH-tsee em"
+                          ],
+                          [
+                              "25",
+                              "I love Armenia",
+                              "Sirum em Hayastan",
+                              "Sirum em Hayastan",
+                              "see-ROOM em hye-ah-STAN"
+                          ]
+                      ]
+    },
+    {
+        "title":  "Food \u0026 Drink",
+        "lines":  [
+
+                  ],
+        "tableRows":  [
+                          [
+                              "#",
+                              "English",
+                              "Armenian Script",
+                              "Transliteration",
+                              "How to Say It"
+                          ],
+                          [
+                              "38",
+                              "Water",
+                              "Jur",
+                              "Jur",
+                              "joor"
+                          ],
+                          [
+                              "39",
+                              "CoffeeArmenian coffee is similar to Turkish coffee",
+                              "Surj",
+                              "Surj",
+                              "soorch"
+                          ],
+                          [
+                              "40",
+                              "Tea",
+                              "Tey",
+                              "Tey",
+                              "tay"
+                          ],
+                          [
+                              "41",
+                              "BreadLavash is the iconic Armenian flatbread",
+                              "Hats",
+                              "Hats",
+                              "hahts"
+                          ],
+                          [
+                              "42",
+                              "Meat",
+                              "Mis",
+                              "Mis",
+                              "mees"
+                          ],
+                          [
+                              "43",
+                              "Fish",
+                              "Dzuk",
+                              "Dzuk",
+                              "dzook"
+                          ],
+                          [
+                              "44",
+                              "Wine",
+                              "Gini",
+                              "Gini",
+                              "gee-NEE"
+                          ],
+                          [
+                              "45",
+                              "Beer",
+                              "Garejur",
+                              "Garejur",
+                              "gah-reh-JOOR"
+                          ],
+                          [
+                              "46",
+                              "Cheers!The most important toast you\u0027ll ever learn",
+                              "Genats!",
+                              "Genats!",
+                              "geh-NAHTS"
+                          ],
+                          [
+                              "47",
+                              "Delicious",
+                              "Shad hamov e",
+                              "Shad hamov e",
+                              "shad hah-MOV eh"
+                          ],
+                          [
+                              "48",
+                              "Restaurant",
+                              "Jasharan",
+                              "Jasharan",
+                              "jah-shah-RAN"
+                          ],
+                          [
+                              "49",
+                              "The bill, please",
+                              "Hashiv, khndrem",
+                              "Hashiv, khndrem",
+                              "hah-SHEEV k-HUN-drem"
+                          ],
+                          [
+                              "50",
+                              "I\u0027m hungry",
+                              "Sov em",
+                              "Sov em",
+                              "sov em"
+                          ],
+                          [
+                              "51",
+                              "I\u0027m thirsty",
+                              "Tsarav em",
+                              "Tsarav em",
+                              "tsah-RAV em"
+                          ],
+                          [
+                              "52",
+                              "Bon appétit / Enjoy your meal",
+                              "Bari akhorjak",
+                              "Bari akhorjak",
+                              "BAH-ree ah-khor-JAK"
+                          ]
+                      ]
+    },
+    {
+        "title":  "Getting Around",
+        "lines":  [
+
+                  ],
+        "tableRows":  [
+                          [
+                              "#",
+                              "English",
+                              "Armenian Script",
+                              "Transliteration",
+                              "How to Say It"
+                          ],
+                          [
+                              "53",
+                              "Where is ___?",
+                              "Vortegh e ___?",
+                              "Vortegh e ___?",
+                              "vor-TEGH eh"
+                          ],
+                          [
+                              "54",
+                              "Right",
+                              "Ajin",
+                              "Ajin",
+                              "AH-jin"
+                          ],
+                          [
+                              "55",
+                              "Left",
+                              "Dzakh",
+                              "Dzakh",
+                              "dzakh"
+                          ],
+                          [
+                              "56",
+                              "Straight ahead",
+                              "Ugikh",
+                              "Ugikh",
+                              "oo-GHIKH"
+                          ],
+                          [
+                              "57",
+                              "Near / Close",
+                              "Mots",
+                              "Mots",
+                              "mots"
+                          ],
+                          [
+                              "58",
+                              "Far",
+                              "Hur",
+                              "Hur",
+                              "hoor"
+                          ],
+                          [
+                              "59",
+                              "Taxi",
+                              "Taksi",
+                              "Taksi",
+                              "TAK-see"
+                          ],
+                          [
+                              "60",
+                              "Bus",
+                              "Avtobus",
+                              "Avtobus",
+                              "AV-to-boos"
+                          ],
+                          [
+                              "61",
+                              "Metro / Subway",
+                              "Metró",
+                              "Metro",
+                              "meh-TRO"
+                          ],
+                          [
+                              "62",
+                              "Airport",
+                              "Odanavakayan",
+                              "Odanavakayan",
+                              "o-dah-nah-vah-kah-YAN"
+                          ],
+                          [
+                              "63",
+                              "Hotel",
+                              "Hyuranots",
+                              "Hyuranots",
+                              "hyoo-rah-NOTS"
+                          ],
+                          [
+                              "64",
+                              "Street",
+                              "Poghots",
+                              "Poghots",
+                              "po-GHOTS"
+                          ],
+                          [
+                              "65",
+                              "I don\u0027t know the way",
+                              "Janaparh chem giter",
+                              "Janaparh chem giter",
+                              "jah-nah-PARH chem gee-TER"
+                          ]
+                      ]
+    },
+    {
+        "title":  "Shopping \u0026 Money",
+        "lines":  [
+
+                  ],
+        "tableRows":  [
+                          [
+                              "#",
+                              "English",
+                              "Armenian Script",
+                              "Transliteration",
+                              "How to Say It"
+                          ],
+                          [
+                              "66",
+                              "How much does it cost?",
+                              "Inch arje?",
+                              "Inch arje?",
+                              "inch ar-JEH"
+                          ],
+                          [
+                              "67",
+                              "Expensive",
+                              "Tank e",
+                              "Tank e",
+                              "tank eh"
+                          ],
+                          [
+                              "68",
+                              "Cheap / Affordable",
+                              "Ezhan e",
+                              "Ezhan e",
+                              "eh-ZHAN eh"
+                          ],
+                          [
+                              "69",
+                              "I want ___",
+                              "Uzenum em ___",
+                              "Uzenum em ___",
+                              "oo-ZOO-nem em"
+                          ],
+                          [
+                              "70",
+                              "Do you have ___?",
+                              "Unek ___?",
+                              "Unek ___?",
+                              "oo-NEK"
+                          ],
+                          [
+                              "71",
+                              "Market / Bazaar",
+                              "Shuka",
+                              "Shuka",
+                              "SHOO-kah"
+                          ],
+                          [
+                              "72",
+                              "Store / Shop",
+                              "Khanut",
+                              "Khanut",
+                              "khah-NOOT"
+                          ],
+                          [
+                              "73",
+                              "Money",
+                              "Pogh",
+                              "Pogh",
+                              "pogh"
+                          ],
+                          [
+                              "74",
+                              "Card (payment)",
+                              "Kart",
+                              "Kart",
+                              "kart"
+                          ]
+                      ]
+    },
+    {
+        "title":  "Emergency \u0026 Health",
+        "lines":  [
+
+                  ],
+        "tableRows":  [
+                          [
+                              "#",
+                              "English",
+                              "Armenian Script",
+                              "Transliteration",
+                              "How to Say It"
+                          ],
+                          [
+                              "75",
+                              "Help!",
+                              "Ognutyun!",
+                              "Ognutyun!",
+                              "og-noo-TYOON"
+                          ],
+                          [
+                              "76",
+                              "Police",
+                              "Vostikan",
+                              "Vostikan",
+                              "vos-tee-KAN"
+                          ],
+                          [
+                              "77",
+                              "Doctor",
+                              "Bzhishk",
+                              "Bzhishk",
+                              "buh-ZHEESHK"
+                          ],
+                          [
+                              "78",
+                              "Hospital",
+                              "Hivandanots",
+                              "Hivandanots",
+                              "hee-van-dah-NOTS"
+                          ],
+                          [
+                              "79",
+                              "Fire!",
+                              "Hrdeh!",
+                              "Hrdeh!",
+                              "huur-DEH"
+                          ],
+                          [
+                              "80",
+                              "I need help",
+                              "Ognutyun e petk",
+                              "Ognutyun e petk",
+                              "og-noo-TYOON eh petk"
+                          ],
+                          [
+                              "81",
+                              "I am sick",
+                              "Hivand em",
+                              "Hivand em",
+                              "hee-VAND em"
+                          ],
+                          [
+                              "82",
+                              "Pharmacy",
+                              "Degyatun",
+                              "Degyatun",
+                              "deh-gyah-TOON"
+                          ]
+                      ]
+    },
+    {
+        "title":  "Time \u0026 Days",
+        "lines":  [
+
+                  ],
+        "tableRows":  [
+                          [
+                              "#",
+                              "English",
+                              "Armenian Script",
+                              "Transliteration",
+                              "How to Say It"
+                          ],
+                          [
+                              "83",
+                              "Today",
+                              "Aysor",
+                              "Aysor",
+                              "eye-SOR"
+                          ],
+                          [
+                              "84",
+                              "Tomorrow",
+                              "Vaghy",
+                              "Vaghy",
+                              "VAHG-huh"
+                          ],
+                          [
+                              "85",
+                              "Yesterday",
+                              "Yerek",
+                              "Yerek",
+                              "YEH-rek"
+                          ],
+                          [
+                              "86",
+                              "Morning",
+                              "Aravot",
+                              "Aravot",
+                              "ah-rah-VOT"
+                          ],
+                          [
+                              "87",
+                              "Evening",
+                              "Yereko",
+                              "Yereko",
+                              "YEH-reh-ko"
+                          ],
+                          [
+                              "88",
+                              "Night",
+                              "Gisher",
+                              "Gisher",
+                              "GEE-sher"
+                          ],
+                          [
+                              "89",
+                              "Now",
+                              "Hima",
+                              "Hima",
+                              "hee-MAH"
+                          ],
+                          [
+                              "90",
+                              "Wait / One moment",
+                              "Spasel",
+                              "Spasel",
+                              "spa-SEL"
+                          ]
+                      ]
+    }
+]
